@@ -1,2 +1,4 @@
 # Hotel-management-php
 The "Fanidi Hotel" project aims to provide an intuitive platform for hotel guests to purchase various services online, access up-to-date hotel news, and simplify order and invoice management. Administrators can fully manage clients and services.
+
+The main objective of this project was to create an interactive and user-friendly experience for hotel guests by offering a centralized platform where they can access various features related to their stay. This includes easy purchase of services from different categories, order management, client management by the admin (who can add, delete, or modify a client), and the same functionalities for services, as well as discovering the latest news and information about the hotel
