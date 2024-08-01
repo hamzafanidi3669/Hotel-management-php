@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+
+
+}
+body{
+    background-color: #EEEEEE;
+
+}
+.containerhome {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(220, 95, 0, 0.4), rgba(0,0,0,0.9)), url(../../parts/image/view-luxurious-hotel-hallway.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.homeservices{
+    background-color: #EEEEEE;
+
+}
+.titledivhome {
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Ensure the h1 and h2 are stacked vertically */
+    align-items: center;
+    justify-content: center;
+}
+
+.titledivhome h1, .titledivhome h2 {
+    color: #EEEEEE;
+    letter-spacing: -1.6px;
+
+    font-weight: 700;
+
+    text-align: center;
+    margin: 0; /* Remove default margin */
+}
+
+.titledivhome h1 {
+    font-size: 53px;
+    margin-bottom: 20px; /* Add space between h1 and h2 */
+
+}
+
+.titledivhomeh2{
+    font-size: 46px; /* Adjust the size of h2 if needed */
+    color:#DC5F00;
+
+}
+.titledivhomeh2{
+    color:#DC5F00;
+}
+.titledivhome h2{
+    color: #DC5F00;
+    font-weight: 900;
+} 
+nav h2{
+    font-weight: 900;
+    font-family: 'Poppins',sans-serif !important;
+    letter-spacing: -2px;
+
+
+}
+.homeservices{
+    /* background-color: blue; */
+    /* padding: 10px; */
+
+    margin: 40px;
+}
+/* hadi */
+
+.homedivlowl{
+    background-color: #ffffff;
+    color: #DC5F00;
+    width: 60vh;
+    height: 100%;
+    /* height: 300px; */
+    /* border-radius: 30px; */
+
+    /* border-radius: 20px; */
+    /* padding: 5px; */
+}
+/* hadi */
+.homedivimg{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 30px; */
+
+}
+
+
+.homedivimg img{
+    width: 100%;
+    /* border-radius: 30px; */
+
+}
+.homesterlowl{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    gap:11px;
+    /* margin: 15px; */
+    color: #DC5F00;
+    font-weight: 600;
+
+
+}
+.homedivtxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homesterlowl a:hover{
+    text-decoration: none;
+    transform: scale(1.03);
+    transition: .3s;
+    color: #DC5F00;
+    font-weight: 800;
+
+
+}
+
+.h2homeservices{
+    margin: 10px;
+   
+}
+.h2homeservices h2{
+    font-size: 44px;
+    letter-spacing: -1.6px;
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 700;
+    color: #000000;
+}

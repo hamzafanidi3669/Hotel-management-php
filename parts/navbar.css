@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.hero {
+    height: 14vh;
+    /* width: 100%; */
+    background: #373A40;
+    /* background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(image/image_hotel2.jpg);
+    background-size: cover;
+    background-position: center; */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 4%;
+    padding-right: 4%;
+    color: #DC5F00;
+    position: fixed; /* Fixe la barre de navigation en haut */
+    top: 0; /* Fixe la barre de navigation en haut de la page */
+    width: 100%; /* Assure que la barre de navigation prend toute la largeur */
+    z-index: 1000; /* Assure que la barre de navigation reste au-dessus des autres éléments */
+    background: #373A40; /* Assure que la barre de navigation a un fond quand elle est fixée */
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+nav ul li a:hover {
+    color: #DC5F00;
+    transition: .3s;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navconnexion {
+    text-decoration: none;
+    background: #dfdfdf;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    transition: .4s;
+    color: #373A40;
+}
+
+.navconnexion:hover {
+    text-decoration: none;
+    transform: scale(1.07);
+    color: rgb(0, 0, 0);
+}
+
+.active {
+    color: #DC5F00;
+    font-weight: 900;
+}
